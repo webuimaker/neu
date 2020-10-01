@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (min-width:969px) and (max-width:1024px){
+#hero .text{padding:100px 55px; max-width:70%;}
+#hero{min-height:inherit;}
+.testimonialslider .owl-prev{left:-56px;}
+.testimonialslider .owl-next{right:-50px;}
+.productimgarea{width:70%;}
+.productbox{padding:68px 44px 62px 32px;}
+.innerbanner .bannerleft{padding-left:15px;}
+}
+
+@media screen and (max-width:1023px) {
+ .bsnav-sticky.bsnav-sticky-slide{width:100%; position:none !important; padding:5px 15px;}
+.navbar-collapse{background:none; padding:15px; margin-top:15px;}
+
+#hero .text{padding:60px 55px; max-width:inherit;}
+#hero{min-height:inherit;}
+.productbtmbox{flex-direction:column;}
+.productbox{width:100%;}
+.productimgarea{text-align:center; margin-left:0; margin-top:40px;}
+.testimonialslider .owl-prev{left:-35px;}
+.testimonialslider .owl-next{right:-30px;}
+.testimonialslider .item{padding:0px 35px;}
+    .btmfootbg  .btmbg{
+        display: none;
+    }
+
+.innerbanner .bannerleft{padding-left:15px;}
+}
+
+
+@media screen and (max-width:767px) {
+.bsnav-mobile .navbar{padding:140px 0 15px !important; background:#ff1000 !important;}
+.bsnav-mobile .bsnav-mobile-overlay{position:absolute;}
+.bsnav-sticky.bsnav-sticky-slide{right:inherit; padding:0 !important;}
+.navbar-nav .nav-item .nav-link{font-size:16px; padding:8px; margin:0;}
+.bsnav-sticky.bsnav-sticky-slide.sticked{position:relative !important;}
+.bsnav .navbar-toggler-icon{width:25px; height:2px;}
+.bsnav .navbar-toggler .navbar-toggler-icon::before{height:2px;}
+.bsnav .navbar-toggler .navbar-toggler-icon::after{height:2px;}
+.navbar-toggler .navbar-toggler-icon::after{bottom:-9px;}
+.navbar-toggler .navbar-toggler-icon::before{bottom:-7px;}
+.navbar-light .navbar-brand{padding:36px 0 18px 9px; margin:0;}
+
+#hero{min-height:600px; background-size:cover;}
+#hero .text{padding:168px 24px;}
+#hero .text h1{font-size:26px; line-height:32px;}
+#hero .text p.subtitle{font-size:13px;}
+#hero .text p{font-size:16px; line-height:24px; letter-spacing: 0.5px;}
+#hero .text p br{display:none;}
+.challenge{padding:0px 15px 14px;}
+.topbg{top:92px;}
+.solutioncol img{max-width:149px; max-height:132px;}
+.productfocus{padding:0px 15px 250px;}
+.testimonialslider .owl-prev{left:-22px;}
+.testimonialslider .owl-next{right:-18px;}
+.productbox{padding:25px;}
+.footer li:first-child{margin-right:0; margin-bottom:25px;}
+.footer li{display:block; margin:0 0 15px;}
+.solution{padding:186px 15px 200px;}
+.challenge{overflow:hidden;}
+.challenge .mobimg{position:relative; z-index:10; padding:0; width:130%; margin:30px -40px 0; }
+.challenge .mobimg img{margin-bottom:-35px; -ms-transform: rotate(7deg); /* IE 9 */ transform: rotate(7deg);}
+.solution::before{top:-160px;}
+.mtop48{margin-top:0;}
+.mtop72{margin-top:0;}
+.contentsection img{max-width:163px; max-height:151px;}
+.productbox{box-shadow:none;}
+.productbtmbox{background:#fff; border-radius:16px; padding:20px;  -webkit-box-shadow: 0 18px 6px -6px #e9eef4; -moz-box-shadow: 0 18px 6px -6px #e9eef4; box-shadow: 0 18px 6px -6px #e9eef4;}
+.btnnew{display:none;}
+.mobbtn{display:block; order:3; width:100%;}
+.mobbtn a{display:inline-block; background:#387EE8; border-radius:200px; padding:10px 16px; color:#fff; text-align:center; font-size:14px; text-transform:uppercase; letter-spacing: 1.25px;}
+.productimgarea{margin-top:0; margin-bottom:20px;}
+
+#heroinner .text h1{font-size:26px;}
+#heroinner .innerbanner{margin:80px auto 0;}
+.datasection{padding:120px 15px 150px;}
+.datasection h3{font-size:28px; margin-bottom:20px;}
+.mapdata p{font-size:18px; font-weight:500; line-height:27px; margin-bottom:42px;}
+.mapdata p br{display:none;}
+.datafieldsection{margin-top:45px;}
+.shadowbtm{min-height:20px;}
+.notebtm{display:none;}
+.analyticsection{padding:0px;}
+.analyticsection h3{margin-top:25px;}
+.analyticrow:last-child{margin-bottom:0;}
+.innerbanner .bannerleft{padding-left:15px;}
+#heroinner .innerbanner .hero-img{text-align:center;}
+.datafieldsection .newdatacol h3{font-size:18px; line-height: 27px; letter-spacing: 0.5px;}
+.datafieldsection .newdatacol p{font-size: 14px; line-height: 24px; font-weight: 500;}
+.newdatacol .btnnew{display:block;}
+.bottmbtnsection{display:block !important;}
+.bottmbtnsection .text-right{text-align:left !important; margin-top:10px;}
+.termsection h3{font-size:34px; line-height: 41px;}
+.termsection p.line36{line-height: 24px;}
+.termsection h4{font-size:21px;}
+}
+
+
+@media screen and (max-width:479px){
+
+}
